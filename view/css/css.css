@@ -1,0 +1,319 @@
+:root {
+    --colorLog: rgb(28, 121, 36);
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("https://scontent.fgua6-1.fna.fbcdn.net/v/t39.30808-6/278004709_1744794765864648_3881606814657010124_n.jpg?stp=dst-jpg_s960x960&_nc_cat=101&ccb=1-5&_nc_sid=e3f864&_nc_ohc=s-QavmrKnXoAX_VHSwV&_nc_ht=scontent.fgua6-1.fna&oh=00_AT-uXDP0DpajujeTZbLM3AXUNvo5I_L3TQ00zp0WWpCqGA&oe=6255DFC2");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.heder{
+
+    display: flex;
+    justify-content: right;
+}
+
+.logIn{
+    margin: 1rem;
+    margin-right: 2rem;
+    background: var(--colorLog);
+    padding: 1rem;
+    font-size:1rem;
+    border-radius: 5%;
+}
+
+.contenido{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+
+}
+.padreFormulario{
+    
+    background: rgb(255,255,255);
+    display: grid;
+
+
+    
+}
+.formulario{
+
+    display: grid;
+    
+    padding: 50px;
+    padding-top: 10px;
+    border-radius: 5%;
+    
+}
+.h3Titulo{
+    display: grid;
+    justify-items: center;
+    background: black;
+    padding-bottom: 10px;
+    padding-top:10px;
+
+}
+h3{
+    font-size: 3rem;  
+    margin: 0px;
+    color: var(--colorLog);
+
+
+}
+.logo{
+    display: grid;
+    justify-items: center;
+
+}
+.imgLogo{
+    width: 40%;
+}
+
+.formulario form{
+    
+    margin-bottom: 1rem;
+}
+
+.formulario form input{
+    width: 96%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    border: 1px solid var(--colorLog);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    outline: none;
+    background: transparent;
+    
+}
+
+
+.enviar{
+    background: var(--colorLog);
+
+}
+.enviar input{
+
+    width: 100%;
+    
+    font-size: 1rem;
+    border: 1px solid var(--colorLog);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    outline: none;
+    background: transparent;
+    
+}
+
+.chec{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.chec input{
+    margin-top: 0px ;
+    padding: 0px;
+
+}
+
+.heder{
+
+    display: flex;
+    justify-content: right;
+}
+
+.logIn{
+    margin: 1rem;
+    margin-right: 2rem;
+    background: var(--colorLog);
+    padding: 1rem;
+    font-size:1rem;
+    border-radius: 5%;
+}
+
+.contenido{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+.padreFormulario{
+    
+    background: rgb(255,255,255);
+    display: grid;
+    
+}
+.formulario{
+
+    display: grid;
+    
+    padding: 50px;
+    padding-top: 10px;
+    border-radius: 5%;
+    
+}
+.h3Titulo{
+    display: grid;
+    justify-items: center;
+    background: black;
+    padding-bottom: 10px;
+    padding-top:10px;
+
+}
+h3{
+    font-size: 3rem;  
+    margin: 0px;
+    color: var(--colorLog);
+
+
+}
+.logo{
+    display: grid;
+    justify-items: center;
+
+}
+.imgLogo{
+    width: 40%;
+}
+
+.formulario form{
+    
+    margin-bottom: 1rem;
+}
+
+.formulario form input{
+    width: 96%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    border: 1px solid var(--colorLog);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    outline: none;
+    background: transparent;
+    
+}
+
+
+.enviar{
+    background: var(--colorLog);
+
+}
+.enviar input{
+
+    width: 100%;
+    
+    font-size: 1rem;
+    border: 1px solid var(--colorLog);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    outline: none;
+    background: transparent;
+    
+}
+
+.chec{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.chec input{
+    margin-top: 0px ;
+    padding: 0px;
+
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*heder*/
+
+header{
+    background: var(--colorLog);
+    margin: 10px;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    margin: 10px;
+    list-style:none;
+    color: aliceblue;
+
+}
+.cerrarSesion{
+    background: var(--boton);
+    padding: 10px;
+    margin: 4px;
+}
+.nombrePersona{
+    border-right: 2px solid rgb(0, 0, 0);
+    padding-right: 2px;
+    
+}
+
+/*main*/
+main{
+
+    margin: 10px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: start;
+    align-items: center;
+
+}
+
+.cajaCurso{
+    border: 1px solid rgba(0, 0, 0, 0.432);
+    margin: 20px;
+    width: 200px;
+    height: 100%;
+    display: grid;
+
+
+}
+.hederCurso{
+    margin: 0px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mainCurso{
+    display: grid;
+    align-items: end;
+    justify-items: start;
+    margin: 10px;
+    height: 130px;
+    
+    
+}
+
+.notaCurso{
+    background: rgba(0, 0, 0, 0.384);
+    padding: 10px;
+}
